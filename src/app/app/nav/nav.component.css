@@ -1,0 +1,25 @@
+.container{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    padding: 20px;
+    background-color:rgb(var(--blueBackground));
+}
+nav > a{
+    display: inline-block;
+    padding: 8px; /*rozmiar koła*/
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    text-align: left;
+    width: 210px;
+  
+}

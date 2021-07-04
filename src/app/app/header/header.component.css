@@ -1,0 +1,19 @@
+h1::before{
+    content: " 1 ";
+    display: inline-block;
+    padding:0rem 0.6rem 1rem 0.5rem;
+    margin: 30px 10px 10px 60px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: rgb(var(--blueBackground));
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 3em;
+    font-weight: 100;
+    display: inline-block;
+}
